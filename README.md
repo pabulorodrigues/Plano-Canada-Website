@@ -6,7 +6,7 @@ The control of tasks will be done through GitHub
 
 ## Icons
 
-:packege: new funcionality
+:package: new funcionality
 :up: update
 :beatle: bug correction
 :checkred_flag: realease
