@@ -8,5 +8,5 @@ The control of tasks will be done through GitHub
 
 :package: new funcionality
 :up: update
-:beetle: bug correction
-:checkred_flag: release
+:lady_beetle: bug correction
+:checkered_flag: release
