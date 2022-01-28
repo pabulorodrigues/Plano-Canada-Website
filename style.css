@@ -361,12 +361,15 @@ header {
 .service-content:hover p{
     color: #363636;
     font-weight: 450;
+
 }
 
-.touch-in .service-content p{
+ .touch-in .service-content:hover p{
     color: #363636;
     font-weight: 450;
 }
+
+
 
 
 .service-content button{
