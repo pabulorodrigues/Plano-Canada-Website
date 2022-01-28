@@ -233,7 +233,7 @@ header {
 
 .section-history {
     background-color: #cdcdcd;
-}
+ }
 
 .history-container {
     margin:auto;
@@ -243,7 +243,7 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-gap:20px;
     justify-content: center;
-    padding: 20px 20px 180px;
+    padding: 15px 15px 20px;
 }
 
 .history{
@@ -294,8 +294,6 @@ header {
 
 .services-container {
     margin:auto;
-    max-height: 768px;
-    height: 100%;
     max-width: 980px;
     width: 90%;
     display: grid;
@@ -324,7 +322,7 @@ header {
 
 .service-photo{
     width: 100%;
-    height: 250px;
+    height: 210px;
     object-fit: cover;
     border-radius: 1%;  
 }
@@ -417,7 +415,7 @@ header {
 
 .feedback{
     background: rgb(139, 182, 226);
-    padding: 15px 15px 40px;
+    padding: 15px 15px 20px;
     border-radius: 1%;
     opacity: .9;
 }
@@ -457,7 +455,7 @@ header {
     .feedback-container,
     .services-container, 
     .history-container{
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
         
     
 }
@@ -475,16 +473,18 @@ header {
 
 }
 
-@media (max-width: 778px) {
-    .service-photo{
-        height: 420px;
+@media (max-width: 780px) {
+    .service-photo,
+    .feedback-photo{
+        height: 210px;
 }
 
 }
 
 @media (max-width: 540px) {
-    .service-photo{
-        height: 300px;
+    .service-photo,
+    .feedback-photo{
+        height: 120px;
 }
 
 }
