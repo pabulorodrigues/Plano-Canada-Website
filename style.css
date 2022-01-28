@@ -322,7 +322,7 @@ header {
 
 .service-photo{
     width: 100%;
-    height: 210px;
+    height: 200px;
     object-fit: cover;
     border-radius: 1%;  
 }
@@ -422,7 +422,7 @@ header {
 
 .feedback-photo{
     width: 100%;
-    height: 250px;
+    height: 280px;
     object-fit: cover;
     border-radius: 1%; 
 }
@@ -450,12 +450,21 @@ header {
     /*text-shadow:.1rem .1rem 1px rgba(0, 0, 0, 0.404);*/
 }
 
+@media (max-width: 778px) {
+    .feedback-container,
+    .services-container, 
+    .history-container{
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        
+    
+}
+}
 
 @media (max-width: 327px) {
     .feedback-container,
     .services-container, 
     .history-container{
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         
     
 }
@@ -473,17 +482,106 @@ header {
 
 }
 
-@media (max-width: 780px) {
-    .service-photo,
-    .feedback-photo{
+@media (max-width: 800px) {
+    .feedback-photo,
+    .service-photo{
+        height: 150px;
+}
+
+}
+
+@media (max-width: 768px) {
+    .feedback-photo,
+    .service-photo{
         height: 210px;
 }
 
 }
 
+@media (max-width: 660px) {
+    .feedback-photo,
+    .service-photo{
+        height: 180px;
+}
+
+}
+@media (max-width: 600px) {
+    .feedback-photo,
+    .service-photo{
+        height: 350px;
+}
+
+}
+
 @media (max-width: 540px) {
-    .service-photo,
+    .feedback-photo,
+    .service-photo{
+        height: 280px;
+}
+
+}
+
+
+@media (max-width: 480px) {
+    .feedback-photo,
+    .service-photo{
+        height: 250px;
+}
+
+}
+
+@media (max-width: 414px) {
+    .service-photo{
+        height: 190px;
+}
+
+}
+
+@media (max-width: 414px) {
     .feedback-photo{
+        height: 310px;
+}
+
+}
+
+@media (max-width: 393px) {
+    .feedback-photo,
+    .service-photo{
+        height: 180px;
+}
+
+}
+
+@media (max-width: 390px) {
+    .feedback-photo,
+    .service-photo{
+        height: 210px;
+}
+
+}
+
+
+@media (max-width: 375px) {
+    .feedback-photo,
+    .service-photo{
+        height: 180px;
+}
+
+}
+
+@media (max-width: 320px) {
+    .feedback-photo,
+    .service-photo{
+        height: 165px;
+}
+
+}
+
+
+
+@media (max-width: 240px) {
+    .feedback-photo,
+    .service-photo{
         height: 120px;
 }
 
