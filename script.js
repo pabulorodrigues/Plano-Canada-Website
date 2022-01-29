@@ -39,17 +39,7 @@ document.querySelector(".img-wrapper").addEventListener("click", () =>
  
 
 
- document.querySelector(".service").addEventListener("touchstart", () =>
-    document.querySelector(".container").classList.add("touch-in")
- );
 
- document.querySelector(".service").addEventListener("touchstart", () =>
- document.querySelector(".container").classList.add("touch-in")
-);
-
- document.querySelector(".service").addEventListener("touchend", () =>
-    document.querySelector(".container").classList.remove("touch-in")
- );
 
 
  
