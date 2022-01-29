@@ -9,6 +9,10 @@
     outline: 0%;
     box-sizing: border-box;
 }
+body{
+    background-color: #cdcdcd;
+}
+
 :root {
     --font-primary: "Baloo Da 2", serif;
     --font-secondary: "Ubuntu", serif;
@@ -163,12 +167,10 @@ header {
     }
 }
 
-
-
 .banner {
     position: absolute;
-    top: 35%;
-    left: 20%;
+    top: 37%;
+    left: 23%;
 }
 
 .banner h1 {
@@ -177,8 +179,8 @@ header {
     font-family: var(--font-primary);
     font-weight: 650;
     text-shadow: .2rem .2rem 2px rgba(0, 0, 0, 0.4);
-    line-height: 4.5rem;
-    margin-bottom: 2rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
     opacity: 0;
     animation: movebanner 1s .8s forwards;
 }
@@ -206,7 +208,7 @@ header {
     border-radius: 5px;
     cursor: pointer;
     opacity: 0;
-    animation: movebanner 1s 1.5s forwards;
+    animation: movebanner 1s 1s forwards;
 }
 
 .banner button:hover {
@@ -480,6 +482,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
 }
 
 .footer-content{
