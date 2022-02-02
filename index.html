@@ -12,46 +12,48 @@
         <title>Plano Canada</title>
     </head>
     <body>
+        <header class="primary-header flex">
+                <button class="mobile-nav-toggle" aria-controls="nav-list" aria-expanded="false"><span class="sr-only">Menu</span></Menu></button>
+                <div class="select-language flex">
+                    <div class="span-text flex">
+                        <span data-section="select-language" data-value="span-text" class="span">Translate</span>
+                    </div>
+                    <div id="flags" class="flags">
+                        <div class="flags-item" data-language="pt">
+                            <img src="icons/br.svg" alt="#">
+                        </div>
+                        <div class="flags-item" data-language="en">
+                            <img src="icons/us.svg" alt="#">
+                        </div>
+                    </div> 
+                </div>
+                <nav>
+                    <ul id="nav-list" data-visible="false" class="nav-list flex">
+                        <li class="active"><a href="#"><span aria-hidden="true"></span>Home</a></li>
+                        <li><a href="#" data-section="navbar" data-value="second-menu-item"><span aria-hidden="true"></span>About us</a></li>
+                        <li><a href="#" data-section="navbar" data-value="third-menu-item"><span aria-hidden="true"></span>Services</a></li>
+                        <li><a href="#" data-section="navbar" data-value="fourth-menu-item"><span aria-hidden="true"></span>Contact us</a></li>
+                        <li class="social-media">
+                            <a href="https://www.voegol.com.br/"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.instagram.com/planocanada_/"><i class="fab fa-instagram-square"></i></a>
+                            <a href="https://www.youtube.com/channel/UCdKBv2OmHOKI12AX0u2wPSQ"><i class="fab fa-youtube-square"></i></a>
+                            <a href="https://www.linkedin.com/in/volya-vasconcelos-4aa961160"><i class="fab fa-linkedin"></i></a>
+                        </li>
+  
+                    </ul>
+                </nav>
+        </header>
         <div class="container">
-            <div class="hamburguer">
-                <div class="line" id="line1"></div>
-                <div class="line" id="line2"></div>
-                <div class="line" id="line3"></div>
-            </div>
-            <div id="flags" class="flags">
-                <div class="flags-item" data-language="pt">
-                    <img src="icons/br.svg" alt="#">
-                </div>
-                <div class="flags-item" data-language="en">
-                    <img src="icons/us.svg" alt="#">
-                </div>
-            </div>
-            <header>
+            <main>
                 <div class="img-wrapper">
                     <img src="images/bg_header.png" alt="">
                 </div>
                 <div class="banner">
                     <h1>Plano Canada</h1>
                     <p data-section="banner" data-value="description">Be the owner of your plan!</p>
-                    <button data-section="banner" data-value="banner-button-text">Start now</button>
+                    <a href="contact.html" target="_blank"><button data-section="banner" data-value="banner-button-text">Start now</button></a>
                 </div>
-            </header>
-            <aside class="sidebar">
-                <nav>
-                    <ul class="menu">
-                        <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link" data-section="sidebar" data-value="second-menu-item">About-us</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link" data-section="sidebar" data-value="third-menu-item">Plano Canada Sevices</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Hello Intercambio</a></li>
-                    </ul>
-                </nav>
-                <div class="social-media">
-                    <a href="https://www.voegol.com.br/"><i class="fab fa-facebook-square"></i></a>
-                    <a href="https://www.instagram.com/planocanada_/"><i class="fab fa-instagram-square"></i></a>
-                    <a href="https://www.youtube.com/channel/UCdKBv2OmHOKI12AX0u2wPSQ"><i class="fab fa-youtube-square"></i></a>
-                    <a href="https://www.linkedin.com/in/volya-vasconcelos-4aa961160"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </aside>
+            </main>
             <section class="section-history">
                 <div class="section-header">
                     <h1 data-section="section-history" data-value="history-title">Our history</h1>

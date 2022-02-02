@@ -1,4 +1,14 @@
 {
+    "select-language":{
+        "span-text": "Translate"
+    },
+   
+    "navbar": {
+        "second-menu-item": "About us",
+        "third-menu-item": "Services",
+        "fourth-menu-item": "Contact us"
+    },
+
     "banner": {
         "description": "Be the owner of your plan!",
         "banner-button-text": "Start Now"

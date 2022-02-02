@@ -1,4 +1,14 @@
 {
+    "select-language":{
+        "span-text": "Traduzir"
+    },
+   
+    "navbar": {
+        "second-menu-item": "Sobre nós",
+        "third-menu-item": "Serviços",
+        "fourth-menu-item": "Contate nos"
+    },
+
     "banner": {
         "description": "Seja você o dono do seu plano!",
         "banner-button-text": "Comece Agora"
