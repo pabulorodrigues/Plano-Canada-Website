@@ -17,10 +17,12 @@
         "second-menu-item": "About-us",
         "third-menu-item": "Plano Canada Services"
     },
+
     "section-history": {
         "history-title": "Our History",
         "text-history": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis"
     },
+
     "section-services": {
         "service-title": "Our services",
         "first-title-service": "Mentoring",
@@ -33,6 +35,7 @@
         "third-service-description": "We are an exchange agency licensed in every college in Canada.",
         "third-service-button-text": "Get More"
     },
+
     "section-feedback": {
         "first-feedback-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis",
         "second-feedback-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis",
@@ -44,5 +47,41 @@
         "first-footer-title": "Address",
         "second-footer-title": "Contact",
         "third-footer-title": "Follow us"         
+    },
+    
+    "section-form": {
+        "form-header": "Contact us",
+        "first-form-label": "Name*",
+        "second-form-label": "Phone/WhatssApp*",
+        "third-form-label":  "Subject matter*",
+        "form-pharagraph": "How did you hear about us?",
+        "first-form-option":" Select",
+        "second-form-option":" Mentoring",
+        "first-form-input": "First Name",
+        "second-form-input": "Last Name",
+        "third-form-input": "Friends",
+        "fourth-form-input": "Others",
+        "form-text-area": "Write here",
+        "form-button": "Send"
+    },
+
+    "section-thanks": {
+        "thanks-title": "Thank you for trusting us.",
+        "thanks-paraghaph": "One of our agents will contact you within 24 hours."
+
     }
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
 }

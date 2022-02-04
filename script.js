@@ -1,5 +1,7 @@
 
  /* Translation */
+ 
+
 
  const flagsElement = document.getElementById("flags");
 
@@ -21,7 +23,18 @@
  
  flagsElement.addEventListener("click", (e) => {
      changeLanguage(e.target.parentElement.dataset.language);
+
  });
+
+
+ 
+
+
+
+
+
+
+
 
 
 

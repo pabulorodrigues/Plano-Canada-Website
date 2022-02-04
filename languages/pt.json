@@ -13,14 +13,17 @@
         "description": "Seja você o dono do seu plano!",
         "banner-button-text": "Comece Agora"
     },
+    
     "sidebar": {
         "second-menu-item": "Sobre nós",
         "third-menu-item": "Plano Canada Serviços"
     },
+
     "section-history": {
         "history-title": "Nossa História",
         "text-history": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit.Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit.Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit.Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis"
     },
+
     "section-services": {
         "service-title": "Nossos Serviços",
         "first-title-service": "Mentoria",
@@ -33,6 +36,7 @@
         "third-service-description": "Somos uma agência de intercâmbio licenciada em todos os college do Canadá.",
         "third-service-button-text": "Saiba Mais"
     },
+
     "section-feedback": {
         "first-feedback-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis",
         "second-feedback-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis",
@@ -44,5 +48,27 @@
         "first-footer-title": "Endereço",
         "second-footer-title": "Contato",
         "third-footer-title": "Siga-nos"         
+    },
+    "section-form": {
+        "form-header": "Entre em Contatdo",
+        "first-form-label": "Nome*",
+        "second-form-label": "Telefone/WhatssApp*",
+        "third-form-label":  "Assunto*",
+        "form-pharagraph": "Como ficou sabendo sobre nos",
+        "first-form-option":" Selecione",
+        "second-form-option":" Mentoria",
+        "first-form-input": "Nome",
+        "second-form-input": "Sobrenome",
+        "third-form-input": "Amigos",
+        "fourth-form-input": "Outros",
+        "form-text-area": "Escreva aqui sua mensagem",
+        "form-button": "Enviar"
+    },
+
+    "section-thanks": {
+        "thanks-title": "Obrigado por confiar em nós.",
+        "thanks-paraghaph": "Um de nossos agentes entrará em contato com você em até 24 horas."
+
     }
+
 }
