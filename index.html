@@ -15,10 +15,8 @@
         <header class="primary-header flex">
                 <button class="mobile-nav-toggle" aria-controls="nav-list" aria-expanded="false"><span class="sr-only">Menu</span></Menu></button>
                 <div class="select-language flex">
-                    <div class="span-text flex">
-                        <span data-section="select-language" data-value="span-text" class="span">Traduzir</span>
-                    </div>
                     <div id="flags" class="flags">
+                        <span data-section="select-language" data-value="span-text">Traduzir</span>
                         <div class="flags-item" data-language="pt">
                             <img src="icons/br.svg" alt="#">
                         </div>
@@ -29,14 +27,14 @@
                 </div>
                 <nav>
                     <ul id="nav-list" data-visible="false" class="nav-list flex">
-                        <li class="active"><a href="index.html"><span aria-hidden="true"></span>Home</a></li>
-                        <li><a href="#" data-section="navbar" data-value="second-menu-item"><span aria-hidden="true"></span>Sobre nós</a></li>
-                        <li><a href="#" data-section="navbar" data-value="third-menu-item"><span aria-hidden="true"></span>Serviços</a></li>
+                        <li class="active"><a href="index.html" data-section="navbar" data-value="first-menu-item"><span aria-hidden="true"></span>Home</a></li>
+                        <li><a href="#history" data-section="navbar" data-value="second-menu-item"><span aria-hidden="true"></span>Sobre</a></li>
+                        <li><a href="#services" data-section="navbar" data-value="third-menu-item"><span aria-hidden="true"></span>Serviços</a></li>
                         <li><a href="contact.html" data-section="navbar" data-value="fourth-menu-item"><span aria-hidden="true"></span>Contato</a></li>
                         <li class="social-media">
                             <!--<a href="#"><i class="fab fa-facebook-square"></i></a>-->
                             <a href="https://www.instagram.com/planocanada_/"><i class="fab fa-instagram-square"></i></a>
-                            <!--<a href="https://www.youtube.com/channel/UCdKBv2OmHOKI12AX0u2wPSQ"><i class="fab fa-youtube-square"></i></a>-->
+                            <!--<a href="#"><i class="fab fa-youtube-square"></i></a>-->
                             <a href="https://chat.whatsapp.com/BaASDWyXevAAGRE9iueWYU"><i class="fab fa-whatsapp-square"></i></a>
                         </li>
   
@@ -45,9 +43,9 @@
         </header>
         <div class="container">
             <div class="banner-container">
-                <div class="img-wrapper">
+                <!--<div class="img-wrapper">
                     <img src="images/bg_header.png" alt="">
-                </div>
+                </div>-->
                 <div class="banner">
                     <h1>Plano Canada</h1>
                     <p data-section="banner" data-value="description">Seja dono do seu plano!</p>
@@ -55,15 +53,15 @@
                 </div>
             </div>
             <main>
-                <div class="section-header">
-                    <h1 data-section="section-services" data-value="service-title">Quem Somos</h1>
+                <div class="section-header" id="history">
+                    <h1 data-section="section-history" data-value="history-title">Quem Somos</h1>
                 </div>
                     <article class="history">
-                        <p data-section="section-history" data-value="text-history">Somos uma empresa especializada em ajudar pessoas a por em pratica plano de estudar no Canada. Oferecemos servicos dedicados a pessoas que tem intersse de estudar no Canada ou aquelas querem fazer um intercambio de Ingles e viver uma experiencia unica morando no Canada.  .</p>
+                        <p data-section="section-history" data-value="text-history">Somos uma empresa especializada em ajudar pessoas a por em prática o plano de estudar no Canada. Nossa experiência na área de mentoria e planejamento educacional, já ajudou muitas pessoas a realizarem o sonho de aprender uma nova cultura e viver uma experiêcia incrível morando fora do seu país de origem. </p>
                     </article>
             </main>
             <section class="section-service">
-                <div class="section-header">
+                <div class="section-header" id="services">
                     <h1 data-section="section-services" data-value="service-title">Nossos Serviços</h1>
                 </div>
                 <div class="cards">
@@ -99,125 +97,42 @@
                     </div>
                 </div>
             </section>
-
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <!--<section class="section-history">
-                <div class="section-header">
-                    <h1 data-section="section-history" data-value="history-title">Nossa história</h1>
-                </div>
-                <div class="history-container">
-                    <div class="history">
-                        <div class="history-content">
-                            <p data-section="section-history" data-value="text-history">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="section-service">
-                <div class="section-header">
-                    <h1 data-section="section-services" data-value="service-title">Nossos Serviços</h1>
-                </div>
-                <div class="services-container">
-                    <div class="service">
-                        <img src="images/plan.JPG" alt="#" class="service-photo"></img>
-                        <div class="service-content">
-                            <h3 data-section="section-services" data-value="first-title-service">Mentoria</h3>
-                            <p data-section="section-services" data-value="first-service-description">Our mentoring has helped many individuals and families write a unique life-changing journey to Canada. Limited spots.</p>
-                            <a href="mentoring.html" target="_blank"><button data-section="section-services" data-value="first-service-button-text">Saiba mais</button></a>
-                        </div>
-                    </div>
-                    <div class="service">
-                        <img src="images/trans.JPG" alt="#" class="service-photo"></img>
-                        <div class="service-content">
-                            <h3 data-section="section-services" data-value="second-title-service">Transfer / Day use</h3>
-                            <p data-section="section-services" data-value="second-service-description">Our Ontario team is ready to welcome you upon your arrival. We provide transfer service to several cities in the province of Ontario. We offer Day Use service to our clients in Toronto and London. The Day Use service is fully customized according to your preferences. We can help you with your first purchases, open a bank account, issue a SIN Number, purchase a public transport pass, hire a cell phone line, enjoy the city and talk a lot about tips for the first days and curiosities of the city.</p>
-                            <a href="transfer-day-use.html" target="_blank"><button data-section="section-services" data-value="second-service-button-text">Saiba mais</button></a>
-                        </div>
-                    </div>
-                    <div class="service">
-                        <img src="images/hello.JPG" alt="#" class="service-photo"></img>
-                        <div class="service-content">
-                            <h3 data-section="section-services" data-value="third-title-service">Hello Intercambio</h3>
-                            <p data-section="section-services" data-value="third-service-description">We are an exchange agency licensed in every college in Canada.</p>
-                            <a href="hello-intercambio.html" target="_blank"><button data-section="section-services" data-value="third-service-button-text">Saiba mais</button></a>
-                        </div>
-                    </div>
-                </div>
-            </section>-->
             <section class="feedback-section">
                 <div class="section-header">
                     <h1>Feedback</h1>
                 </div>
                 <div class="feedbacks">
-                    <div class="feedback">
+                    <div class="feedback1">
                         <div class="feedback-container">
-                            <img src="images/VOLYA.jpg" alt="#" class="img"></img>
+                            <img src="images/Gardenia e Rodrigo.jpg" alt="#" class="img"></img>
                         </div>
                         <div class="feedback-details">
-                            <h2>Volya</h2>
-                            <p data-section="section-feedback" data-value="first-feedback-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos provident autem reprehenderit.</p>
+                            <h2>Gardênia e Rodrigo</h2>
+                            <p data-section="section-feedback" data-value="first-feedback-description">“O que falar da Volya? 
+                                Ela foi e está sendo nosso Plano Perfeito para oCanada!
+                                Sempre impulsionou nosso sonho com vídeos e informações sobre esse processo de mudança de vida. Nos ajudou a enfrentar nossos medos e decidimos apertar o play. 
+                                
+                                Hoje o nosso plano foi traçado , meu esposo passou na prova do Duolingo, estamos preparando a documentação juramentado e Let’s go baby .
+                                Já já estaremos visitando a Volya no Canadá ❤️”</p>
                         </div>
                     </div>
-                    <div class="feedback">
+                    <div class="feedback2">
                         <div class="feedback-container">
-                            <img src="images/VOLYA.jpg" alt="#" class="img"></img>
+                            <img src="images/Mariana e Guilerme.jpg" alt="#" class="img"></img>
                         </div>
                         <div class="feedback-details">
-                            <h2>Volya</h2>
-                            <p data-section="section-feedback" data-value="second-feedback-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos provident autem reprehenderit.</p>
+                            <h2>Mariana e Guilherme</h2>
+                            <p data-section="section-feedback" data-value="second-feedback-description">Ter a Volya e a @planocanada_ ao nosso lado foi uma das melhores escolhas que fizemos. Devemos quase todas as coisas boas que aconteceram na nossa trajetória a ela. Foram muitos: “Calma! Vai dar tudo certo!”, “Tentem fazer dessa forma”, “Mentalizem vocês aqui que logo vai acontecer” kkkk A Volya abriu nossos olhos e nos guiou por um caminho que nos fez acreditar que, apesar de todos os desafios, nosso plano era possível! Hoje, estamos aguardando a resposta do nosso visto, coisa que há pouco tempo atrás não acreditávamos que seria real!
+                                obrigada, Volya!</p>
                         </div>
                     </div>
-                    <div class="feedback">
+                    <div class="feedback3">
                         <div class="feedback-container">
-                            <img src="images/VOLYA.jpg" alt="#" class="img"></img>
+                            <img src="images/Vanessa e Junior.jpg" alt="Ana carolina e Jonathan" class="img"></img>
                         </div>
                         <div class="feedback-details">
-                            <h2>Volya</h2>
-                            <p data-section="section-feedback" data-value="third-feedback-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos provident autem reprehenderit.</p>
+                            <h2>Vanessa e Júnior</h2>
+                            <p data-section="section-feedback" data-value="third-feedback-description">Depois de muitas pesquisas no site do governo e conversas com amigos que já estão no Canadá, eu ainda continuava perdida.  Continuei minhas pesquisas e neste caminho cheio de informações soltas e pessoas vendendo há ouro o sonho das pessoas… continuei minha jornada até que encontrei o anjo que clareou todo meu plano e que até o momento era só meu e depois da primeira mentoria de um pouco mais de 1 hora conseguiu incluir meu esposo nessa longa jornada 🙏🏻 santa Volya 🥰. Hoje, não mais sozinhos, temos uma mentora e estamos construindo juntos um plano com os pés no chão, com muito conhecimento e planejamento. O melhor, tudo por um preço justo.</p>
                         </div>
                     </div>
                 </div>                 
@@ -250,7 +165,7 @@
                     <ul>
                          <!--<a href="#"><i class="fab fa-facebook-square"></i></a>-->
                          <a href="https://www.instagram.com/planocanada_/"><i class="fab fa-instagram-square"></i></a>
-                         <!--<a href="https://www.youtube.com/channel/UCdKBv2OmHOKI12AX0u2wPSQ"><i class="fab fa-youtube-square"></i></a>-->
+                         <!--<a href="#"><i class="fab fa-youtube-square"></i></a>-->
                          <a href="https://chat.whatsapp.com/BaASDWyXevAAGRE9iueWYU"><i class="fab fa-whatsapp-square"></i></a>
                     </ul>
                 </div>

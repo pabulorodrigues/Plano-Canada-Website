@@ -4,7 +4,8 @@
     },
    
     "navbar": {
-        "second-menu-item": "About us",
+        "first-menu-item": "Home",
+        "second-menu-item": "About",
         "third-menu-item": "Services",
         "fourth-menu-item": "Contact us"
     },
@@ -19,8 +20,8 @@
     },
 
     "section-history": {
-        "history-title": "Our History",
-        "text-history": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis"
+        "history-title": "Who we are",
+        "text-history": "We are a company specialized in helping people to put into practice their study plans in Canada. Our experience in mentoring and educational planning has already helped many people to fulfill their dream of learning a new culture and living an incredible experience living outside their country of origin."
     },
 
     "section-services": {

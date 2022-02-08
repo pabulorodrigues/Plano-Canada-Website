@@ -15,10 +15,8 @@
         <header class="primary-header flex">
                 <button class="mobile-nav-toggle" aria-controls="nav-list" aria-expanded="false"><span class="sr-only">Menu</span></Menu></button>
                 <div class="select-language flex">
-                    <div class="span-text flex">
-                        <span data-section="select-language" data-value="span-text" class="span">Translate</span>
-                    </div>
                     <div id="flags" class="flags">
+                        <span data-section="select-language" data-value="span-text">Traduzir</span>
                         <div class="flags-item" data-language="pt">
                             <img src="icons/br.svg" alt="#">
                         </div>
@@ -29,13 +27,13 @@
                 </div>
                 <nav>
                     <ul id="nav-list" data-visible="false" class="nav-list flex">
-                        <li class="active"><a href="index.html"><span aria-hidden="true"></span>Home</a></li>
-                        <li><a href="#" data-section="navbar" data-value="second-menu-item"><span aria-hidden="true"></span>About us</a></li>
-                        <li><a href="#" data-section="navbar" data-value="third-menu-item"><span aria-hidden="true"></span>Services</a></li>
+                        <li class="active"><a href="index.html" data-section="navbar" data-value="first-menu-item"><span aria-hidden="true"></span>Home</a></li>
+                        <li><a href="index.html#history" data-section="navbar" data-value="second-menu-item"><span aria-hidden="true"></span>Sobre</a></li>
+                        <li><a href="index.html#services" data-section="navbar" data-value="third-menu-item"><span aria-hidden="true"></span>Serviços</a></li>
                         <li class="social-media">
                              <!--<a href="#"><i class="fab fa-facebook-square"></i></a>-->
                              <a href="https://www.instagram.com/planocanada_/"><i class="fab fa-instagram-square"></i></a>
-                             <!--<a href="https://www.youtube.com/channel/UCdKBv2OmHOKI12AX0u2wPSQ"><i class="fab fa-youtube-square"></i></a>-->
+                             <!--<a href="#"><i class="fab fa-youtube-square"></i></a>-->
                              <a href="https://chat.whatsapp.com/BaASDWyXevAAGRE9iueWYU"><i class="fab fa-whatsapp-square"></i></a>
                         </li>
   
@@ -43,14 +41,11 @@
                 </nav>
         </header>
         <div class="container">
-            <div class="img-wrapper-contact">
-                <img src="images/guillaume-jaillet-EIWCd0414xQ-unsplash.jpg" alt="">  
-            </div>
             <section class="form-section">
+                <div class="section-header">
+                    <h1 data-section="section-form" data-value="form-header">Entre em Contato</h1>
+                </div>
                 <div class="form-container">
-                    <div class="section-header">
-                        <h1 data-section="section-form" data-value="form-header">Entre em Contato</h1>
-                    </div>
                     <div class="form-content">
                         <form class="form-contact" action="https://formsubmit.co/pabulor9@gmail.com" method="POST">
                             <label data-section="section-form" data-value="first-form-label" class="form-name-label" for="name">Nome*</label>
@@ -84,9 +79,10 @@
                             <input type="hidden" name="_template" value="table">
                             <button data-section="section-form" data-value="form-button" type="submit">Enviar</button>
                        </form>
+                    </div>
                 </div>
+
             </section>
-        </div>
         <footer>
             <div class="footer-content">
                 <p data-section="footer" data-value="copy-right-text">Copyright &copy; 2022 | Plano Canada - Todos os Direiros Reservados
@@ -114,7 +110,7 @@
                     <ul>
                          <!--<a href="#"><i class="fab fa-facebook-square"></i></a>-->
                          <a href="https://www.instagram.com/planocanada_/"><i class="fab fa-instagram-square"></i></a>
-                         <!--<a href="https://www.youtube.com/channel/UCdKBv2OmHOKI12AX0u2wPSQ"><i class="fab fa-youtube-square"></i></a>-->
+                         <!--<a href="#"><i class="fab fa-youtube-square"></i></a>-->
                          <a href="https://chat.whatsapp.com/BaASDWyXevAAGRE9iueWYU"><i class="fab fa-whatsapp-square"></i></a>
                     </ul>
                 </div>

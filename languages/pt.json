@@ -4,7 +4,8 @@
     },
    
     "navbar": {
-        "second-menu-item": "Sobre nós",
+        "first-menu-item": "Home",
+        "second-menu-item": "Sobre",
         "third-menu-item": "Serviços",
         "fourth-menu-item": "Contate nos"
     },
@@ -20,8 +21,8 @@
     },
 
     "section-history": {
-        "history-title": "Nossa História",
-        "text-history": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit.Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit.Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit.Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis"
+        "history-title": "Quem Somos",
+        "text-history": "Somos uma empresa especializada em ajudar pessoas a por em prática o plano de estudar no Canada. Nossa experiência na área de mentoria e planejamento educacional, já ajudou muitas pessoas a realizarem o sonho de aprender uma nova cultura e viver uma experiêcia incrível morando fora do seu país de origem."
     },
 
     "section-services": {
