@@ -1,8 +1,6 @@
 
  /* Translation */
  
-
-
  const flagsElement = document.getElementById("flags");
 
  const textsToChange = document.querySelectorAll("[data-section]");
@@ -26,21 +24,10 @@
 
  });
 
-
- 
-
-
-
-
-
-
-
-
-
-
  /* menu */
 const primaryNav = document.querySelector('.nav-list');
 const navToggle = document.querySelector('.mobile-nav-toggle');
+const closeNav = document.querySelector('.container');
 
 navToggle.addEventListener('click', () => {
     const visibility = primaryNav.getAttribute('data-visible');
@@ -53,162 +40,52 @@ navToggle.addEventListener('click', () => {
         primaryNav.setAttribute('data-visible', false);
         document.documentElement.style.overflow = 'auto';
         navToggle.setAttribute('aria-expanded', false );
-    }
-
-
-    
+    }  
 });
 
+/*close menu aside if touch in body*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
- 
-
-
-
-
-/*
-class MobileNavbar {
-    constructor(mobileMenu, navList, navLinks) {
-        this.mobileMenu = document.querySelector(mobileMenu);
-        this.navList = document.querySelector(navList);
-        this.navLinks = document.querySelectorAll(navLinks);
-        this.activeClass = "active";
-
-        this.handleClick = this.handleClick.bind(this);
-    }
-
-    handleClick() {
-        console.log(this);
-        this.navList.classList.toggle(this.activeClass);
-    }
-
- 
-
-    addClickEvent() {
-        this.mobileMenu.addEventListener("click", this.handleClick);
-    }
-
-    init() {
-        if (this.mobileMenu) {
-            this.addClickEvent();
-        }
-
-        return this;
-
-    }
-}
-
-const mobileNavbar = new MobileNavbar( 
-    ".mobile-menu",
-    ".nav-list",
-    ".nav-list li",
+closeNav.addEventListener("click", () =>
+  primaryNav.setAttribute('data-visible', false)
 );
 
-
-mobileNavbar.init();
-/*
-
-
-/*
-document.querySelector(".mobile-menu").addEventListener("click", () =>
-document.documentElement.style.overflow = 'hidden'
- );*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-/*
-
-document.body.onresize = function() {
-    if (document.body.clientWidth <= 1003) {
-        document.querySelector(".container").classList.add("rize-hamburguer")
-    }else{
-        document.querySelector(".container").classList.remove("rize-hamburguer")
-        document.querySelector(".container").classList.remove("show-menu");
-    }
-};
-
-
-window.onload = function() {
-    if (document.body.clientWidth <= 1000) {
-        document.querySelector(".container").classList.add("rize-hamburguer")
-    }else{
-        document.querySelector(".container").classList.remove("rize-hamburguer")
-        
-    }
-  };
-
-document.querySelector(".hamburguer").addEventListener("click", () =>
- document.querySelector(".container").classList.toggle("show-menu")
+closeNav.addEventListener("click", () =>
+ document.documentElement.style.overflow = 'auto'
 
 );
 
-document.querySelector(".img-wrapper").addEventListener("click", () =>
- document.querySelector(".container").classList.remove("show-menu")
-
+closeNav.addEventListener("click", () =>
+ navToggle.setAttribute('aria-expanded', false)
 );
 
- document.querySelector(".banner").addEventListener("click", () =>
- document.querySelector(".container").classList.remove("show-menu")
+/*close menu aside if touch in menu itens*/
 
- ); */
+primaryNav.addEventListener("click", () =>
+ primaryNav.setAttribute('data-visible', false)
+)
+
+primaryNav.addEventListener("click", () =>
+ document.documentElement.style.overflow = 'auto'
+);
+
+primaryNav.addEventListener("click", () =>
+ navToggle.setAttribute('aria-expanded', false)
+);
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
    
 
 

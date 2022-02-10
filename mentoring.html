@@ -9,84 +9,88 @@
         <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
-        <title>Plano Canada</title>
+        <title>Plano Canada - Mentoria</title>
     </head>
     <body>
-        <div class="container">
-            <div class="hamburguer">
-                <div class="line" id="line1"></div>
-                <div class="line" id="line2"></div>
-                <div class="line" id="line3"></div>
-            </div>
-            <header>
-                <div class="img-wrapper">
-                    <img src="images/bg_header.png" alt="">
+        <header class="primary-header flex">
+                <button class="mobile-nav-toggle" aria-controls="nav-list" aria-expanded="false"><span class="sr-only">Menu</span></Menu></button>
+                <div class="select-language flex">
+                    <div id="flags" class="flags">
+                        <span data-section="select-language" data-value="span-text">Traduzir</span>
+                        <div class="flags-item" data-language="pt">
+                            <img src="icons/br.svg" alt="#">
+                        </div>
+                        <div class="flags-item" data-language="en">
+                            <img src="icons/us.svg" alt="#">
+                        </div>
+                    </div> 
                 </div>
-            </header>
-            <aside class="sidebar">
                 <nav>
-                    <ul class="menu">
-                        <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">About-us</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Mentoring</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Hello Intercambio</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Transfer / Day-use</a></li>
+                    <ul id="nav-list" data-visible="false" class="nav-list flex">
+                        <li class="active"><a class="menu-item" href="index.html#home" data-section="navbar" data-value="first-menu-item"><span aria-hidden="true"></span>Home</a></li>
+                        <li><a class="menu-item" href="index.html#history" data-section="navbar" data-value="second-menu-item"><span aria-hidden="true"></span>Sobre</a></li>
+                        <li><a class="menu-item" href="index.html#services" data-section="navbar" data-value="third-menu-item"><span aria-hidden="true"></span>Serviços</a></li>
+                        <li class="social-media">
+                             <!--<a href="#"><i class="fab fa-facebook-square"></i></a>-->
+                             <a href="https://www.instagram.com/planocanada_/"><i class="fab fa-instagram-square"></i></a>
+                             <!--<a href="#"><i class="fab fa-youtube-square"></i></a>-->
+                             <a href="https://chat.whatsapp.com/BaASDWyXevAAGRE9iueWYU"><i class="fab fa-whatsapp-square"></i></a>
+                        </li>
+  
                     </ul>
                 </nav>
-                <div class="social-media">
-                    <a href="https://www.voegol.com.br/"><i class="fab fa-facebook-square"></i></a>
-                    <a href="https://www.instagram.com/planocanada_/"><i class="fab fa-instagram-square"></i></a>
-                    <a href="https://www.youtube.com/channel/UCdKBv2OmHOKI12AX0u2wPSQ"><i class="fab fa-youtube-square"></i></a>
-                    <a href="https://www.linkedin.com/in/volya-vasconcelos-4aa961160"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </aside>
+        </header>
+        <div class="container">
             <section class="section-mentoring">
-                <div class="section-header">
-                    <h1>Mentoring</h1>
-                </div>
+                <!--<div class="section-header">
+                    <h1 data-section="section-form" data-value="form-header">Mentoria</h1>
+                </div>-->
                 <div class="mentoring-container">
-                    <div class="mentoring">
-                        <div class="mentoring-content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis sapiente cum rem perferendis dolore molestias est repellat ab optio earum atque, doloribus saepe labore mollitia provident eius animi nobis.</p>
-                        </div>
+                    <div class="mentoring-details">
+                        <h2>So falta o conteudo</h2>
+                        <p>so falta o conteudo</p>
+                        <p>so falta o conteudo</p>
                     </div>
                 </div>
             </section>
-        </div>
         <footer>
             <div class="footer-content">
-                <p>Copyright &copy; 2022 | Plano Canada - All Rights Reserved
+                <p data-section="footer" data-value="copy-right-text">Copyright &copy; 2022 | Plano Canada - Todos os Direiros Reservados
                 </p>
                 <div class="info-address">
-                    <h2>Address</h2>
+                    <h2 data-section="footer" data-value="first-footer-title">Endereço</h2>
                     <div class="place">
                         <i class="fas fa-map-marker"></i>
-                        <span class="text">172-911 Wonderland Road N6K2Y7 - London - ON</span>
+                        <span class="text">PH10-520 Morninton Avenue N5Y 304 - London - ON</span>
                     </div>
                 </div>
                 <div class="info-contact">
-                    <h2>Contact</h2>
+                    <h2 data-section="footer" data-value="second-footer-title">Contato</h2>
                     <div class="phone">
                         <i class="fas fa-mobile-alt"></i>
-                        <span class="text">+1 519-694-4716</span>
+                        <span class="text">+1 2269775577</span>
                     </div>
                     <div class="email">
                         <i class="fas fa-envelope"></i>
-                        <span class="text">planocanada@gmail.com</span>
+                        <span class="text">infoplanocanada@gmail.com</span>
                     </div>
                 </div>
                 <div class="social-list">
-                    <h2>Folow-us</h2>
+                    <h2 data-section="footer" data-value="third-footer-title">Siga nos</h2>
                     <ul>
-                        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                        <li><a href="https://www.instagram.com/planocanada_/"><i class="fab fa-instagram-square"></i></a></li>
-                        <li><a href="https://www.youtube.com/channel/UCdKBv2OmHOKI12AX0u2wPSQ"><i class="fab fa-youtube-square"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/volya-vasconcelos-4aa961160"><i class="fab fa-linkedin"></i></a></li>   
+                         <!--<a href="#"><i class="fab fa-facebook-square"></i></a>-->
+                         <a href="https://www.instagram.com/planocanada_/"><i class="fab fa-instagram-square"></i></a>
+                         <!--<a href="#"><i class="fab fa-youtube-square"></i></a>-->
+                         <a href="https://chat.whatsapp.com/BaASDWyXevAAGRE9iueWYU"><i class="fab fa-whatsapp-square"></i></a>
                     </ul>
                 </div>
             </div>
         </footer>
+
     </body>
     <script src="script.js"></script>   
 </html>
+
+
+    
 

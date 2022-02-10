@@ -70,6 +70,23 @@
         "thanks-title": "Obrigado por confiar em nós.",
         "thanks-paraghaph": "Um de nossos agentes entrará em contato com você em até 24 horas."
 
+    },
+
+    "section-transferdayuse": {
+        "transfer-title": "Transfer",
+        "transfer-paragraph": "Fazemos serviços de transfer para várias cidades da provÍncia de Ontario, estamos preparados para te receber na sua chegada e te conduzir ate sua nova residência no Canadá com muito conforto e segurança.",
+        "dayuse-title": "Day use",
+        "dayuse-paragraph": "Oferecemos o servico de Day use para os nossos clientes de Toronto e London. Este serviço e totalmente personalizado de acordo com suas necessidades. nesse dia podemos te auxiliar nas primeiras compras, abrir uma conta no banco, emitir o SIN number, adquirir o ticket de transporte público, contratar um plano de internet e celular e ainda te dar dicas sobre a cidade e curiosidades sobre do local.",
+        "trasnferdayuse-button": "Entre em contato"
+    },
+
+    "section-college": {
+        "college-title": "College",
+        "college-paragraph": "Somos uma agência de intercâmbio licenciada em todos os colleges, universidades e escolas de inglês do Canada. Oferecemos o melhor serviço para te auxilair em todo o processo, desde a aplicação até o seu primeiro dia de aula."
+
     }
+    
+
+
 
 }

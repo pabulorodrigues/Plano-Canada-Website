@@ -70,6 +70,21 @@
         "thanks-title": "Thank you for trusting us.",
         "thanks-paraghaph": "One of our agents will contact you within 24 hours."
 
+    },
+
+    "section-transferdayuse": {
+        "transfer-title": "Transfer",
+        "transfer-paragraph": "We do transfer services to several cities in the province of Ontario, we are prepared to welcome you on your arrival and take you to your new residence in Canada with great comfort and safety.",
+        "dayuse-title": "Day use",
+        "dayuse-paragraph": "We offer Day use service to our clients in Toronto and London. This service is fully customized according to your needs. On that day we can help you with your first purchases, open a bank account, issue the SIN number, purchase a public transport ticket, hire an internet and cell phone plan and even give you tips about the city and curiosities about the place.",
+        "trasnferdayuse-button": "Contact us"
+
+    },
+
+    "section-college": {
+        "college-title": "College",
+        "college-paragraph": "We are an exchange agency licensed in all English colleges, universities, and schools in Canada. We offer the best service to help you through the entire process, from application to your first day of class."
+
     }
     
 
