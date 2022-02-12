@@ -256,6 +256,7 @@ body{
     animation-duration: 3s;
     animation-direction: forwards;
     animation-timing-function: ease-in-out;
+    z-index: 9999;
    
 }
 
@@ -268,6 +269,7 @@ body{
         animation-duration: 3s;
         animation-direction: forwards;
         animation-timing-function: ease-in-out;
+        z-index: 9999;
     }
 
 }
