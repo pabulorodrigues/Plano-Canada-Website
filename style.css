@@ -263,6 +263,9 @@ body{
         position: absolute;
         top: 17%;
         left: 14%;
+        animation-name: movebanner;
+        animation-duration: 3s;
+        animation-direction: forwards;
     }
 
 }
