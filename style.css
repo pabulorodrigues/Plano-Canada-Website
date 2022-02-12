@@ -216,8 +216,6 @@ body{
     height: 100vh;
     overflow: hidden;
     animation: zoom 4.1s;
-
-
 }
 
 .img-wrapper {
@@ -257,7 +255,6 @@ body{
     animation-name: movebanner;
     animation-duration: 3s;
     animation-direction: forwards;
-    animation-timing-function:ease-in-out;
    
 }
 
