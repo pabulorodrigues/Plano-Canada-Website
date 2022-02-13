@@ -411,6 +411,7 @@ main{
     border-radius: 20px;
     cursor: pointer;
     opacity: .8;
+    margin-bottom: 2rem;
 }
 .cards:hover{
     opacity: 1;
@@ -609,10 +610,6 @@ main{
 
     
 }
-
-
-
-
 
 .feedback-section{
     width: 100%;
